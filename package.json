@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
