@@ -76,7 +76,7 @@ async function createClaimableSite({ netlify,user }: Props) {
   console.log("Creating claim url...");
   const token = jwt.sign({ client_id: OAUTH_CLIENT_ID, session_id: user.sessionId }, OAUTH_CLIENT_SECRET);
   console.log("Link to claim the site:")
-  console.log("https://app.netlify.com/claim#" + token)
+  console.log("https://app.netlify.com/claim?token=" + token)
 
 }
 
